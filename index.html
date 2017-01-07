@@ -1,14 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
+<head charset="utf-8">
 	<title>Thomas Ortiz</title>
-	<meta charset="utf-8" />
+	<link rel="icon" type="image/x-icon" href="/assets/css/images/fabicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 </head>
 
 <body class="loading">
@@ -16,24 +14,17 @@
 		<div id="bg"></div>
 		<div id="overlay"></div>
 		<div id="main">
-
-<!-- Header -->
-<!--
-<header id="header">
-</header>
--->
-			<!--<div style="margin-bottom:5em;">
-				<ul><li><a href="#">About Me</a></li>
-			</div>-->
+			<!-- Top Navbar -->
 			<div class="nav">
 				<ul> 
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Calendar</a></li>
-					<li><a href="#">Base Converter</a></li>
+					<li id=aboutMeNavButton><a href="#/home">About Me</a></li>
+					<li id="projectsNavButton"><a href="#/projects">Projects</a></li>
+					<li id="calandarNavButton"><a href="#/calandar">Calendar</a></li>
+					<li id="resumeNavButton"><a href="#/resume">Resume</a></li>
 				</ul>
 			</div>
 
+			<!-- Headshot and icon links -->
 			<div id="header">
 				<div id="avatar"></div>
 				<h1>Thomas Ortiz</h1>
@@ -47,20 +38,24 @@
 					</ul>
 				</nav>
 			</div>
-
-			<!-- Footer -->
-			<footer id="footer">
-				<span class="copyright">&copy; Thomas Ortiz 2017</span>
-			</footer>
-
+			
+			<!-- Extra Information Goes Below Here -->
+			
 		</div>
 	</div>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script>
-		window.onload = function() { document.body.className = ''; }
-		window.ontouchmove = function() { return false; }
-		window.onorientationchange = function() { document.body.scrollTop = 0; }
-	</script>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<span class="copyright">&copy; Thomas Ortiz 2017</span>
+	</footer>
 </body>
+
+<script>
+	$(function() {
+		document.body.className = '';
+	});
+	window.ontouchmove = function() { return false; }
+	window.onorientationchange = function() { document.body.scrollTop = 0; }
+</script>
 
 </html>
