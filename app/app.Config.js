@@ -10,28 +10,28 @@
 
         when('/home', {
             templateUrl: 'templates/home.html',
-            title: 'Thomas Ortiz - Home'
+            title: 'TO - Home'
         }).
 
         when('/projects', {
             templateUrl: 'templates/projects.html',
-            title: 'Thomas Ortiz - Projects'
+            title: 'TO - Projects'
         }).
         
         when('/calandar', {
             templateUrl: 'templates/calandar.html',
-            title: 'Thomas Ortiz - My Calandar'
+            title: 'TO - My Calandar'
         }).
         
         when('/resume', {
             templateUrl: 'templates/resume.html',
-            title: 'Thomas Ortiz - Resume'
+            title: 'TO - Resume'
         }).
 
         when('/baseConverter', {
             templateUrl: 'templates/baseConverter.html',
-            title: 'Thomas Ortiz - Base Converter',
-            controller : 'baseCtrl'
+            title: 'TO - Base Converter',
+            controller : 'baseCalculatorCtrl'
         }).
 
         otherwise({

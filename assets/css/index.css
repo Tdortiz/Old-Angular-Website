@@ -63,24 +63,24 @@ input:valid {
 	margin-top: 7px;
 	height: 34px;
 	width: 50px;
-	background: url('../resources/mail.png') center top no-repeat;
+	background: url('../img/mail.png') center top no-repeat;
 }
 
 .mail:hover {
 	display:block;
-	background: url('../resources/mail2.png') center top no-repeat;
+	background: url('../img/mail2.png') center top no-repeat;
 }
 
 .linkedin {
 	display:block;
 	height: 50px;
 	width: 50px;
-	background: url('../resources/linked.png') center top no-repeat;
+	background: url('../img/linked.png') center top no-repeat;
 }
 
 .linkedin:hover {
 	display:block;
-	background: url('../resources/linked2.png') center top no-repeat;
+	background: url('../img/linked2.png') center top no-repeat;
 }
 
 .git {
@@ -88,10 +88,10 @@ input:valid {
 	float: right;
 	height: 50px;
 	width: 50px;
-	background: url('../resources/git.png') center top no-repeat;
+	background: url('../img/git.png') center top no-repeat;
 }
 
 .git:hover {
 	display:block;
-	background: url('../resources/git2.png') center top no-repeat;
+	background: url('../img/git2.png') center top no-repeat;
 }

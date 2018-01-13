@@ -1,11 +1,11 @@
 (function() {
     'use strict';
     
-    baseCtrl.$inject = [
+    baseCalculatorCtrl.$inject = [
         '$scope'
     ];
 
-    function baseCtrl($scope) {
+    function baseCalculatorCtrl($scope) {
         var vm = this;
         vm.locals = $scope.locals = {};
         
@@ -86,6 +86,6 @@
     }
     
     angular.module('myPage')
-        .controller('baseCtrl', baseCtrl);
+        .controller('baseCalculatorCtrl', baseCalculatorCtrl);
 
 })();
